@@ -20,6 +20,7 @@ namespace Theta_Tau.Droid
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new Xamarin.Forms.Application());
+            //Rishab likes dish soap
         }
     }
 }
