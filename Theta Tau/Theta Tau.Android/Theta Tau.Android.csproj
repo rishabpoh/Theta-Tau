@@ -92,6 +92,10 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Theta Tau\Theta Tau.csproj">
+      <Project>{03461af4-298f-4a8c-b764-cf8a5fe9fc78}</Project>
+      <Name>Theta Tau</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Theta_Tau\Theta_Tau.csproj">
       <Project>{0F03D628-B21B-4ABD-A82F-CBF0B5C091AA}</Project>
       <Name>Theta_Tau</Name>
