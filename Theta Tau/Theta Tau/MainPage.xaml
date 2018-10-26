@@ -10,7 +10,7 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
         <Image Source="http://www.thetatauuci.com/wp-content/uploads/2014/09/tt-logo-small-black.png"/>
-        <Slider Minimum="0" Maximum="1" />
+        <Slider Minimum="0" Maximum="69" />
     </StackLayout>
 
 </ContentPage>
