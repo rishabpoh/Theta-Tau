@@ -7,14 +7,17 @@
     <ContentView.Resources>
     </ContentView.Resources>
 
-    <StackLayout >
+    <StackLayout Spacing="10" x:Name="SimpleLayout" >
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+         <Image Source="http://www.thetatauuci.com/wp-content/uploads/2014/09/tt-logo-small-black.png"
+               Scale="1" VerticalOptions="Start" />       
+         <Label Text="Welcome to Xamarin.Forms!" 
            TextColor="{StaticResource textColor}"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Image Source="http://www.thetatauuci.com/wp-content/uploads/2014/09/tt-logo-small-black.png"/>
-        <Slider Minimum="0" Maximum="69" />
+        <Slider Minimum="0" Maximum="420" VerticalOptions="StartAndExpand"
+                ThumbColor="Maroon" BackgroundColor="Gold" 
+                MaximumTrackColor="AliceBlue" MinimumTrackColor="AliceBlue" />
     </StackLayout>
 
 </ContentPage>
