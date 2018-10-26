@@ -4,11 +4,13 @@
              xmlns:local="clr-namespace:Theta_Tau"
              x:Class="Theta_Tau.MainPage">
 
-    <StackLayout>
+    <StackLayout >
         <!-- Place new controls here -->
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Image Source="http://www.thetatauuci.com/wp-content/uploads/2014/09/tt-logo-small-black.png"/>
+        <Slider Minimum="0" Maximum="1" />
     </StackLayout>
 
 </ContentPage>
